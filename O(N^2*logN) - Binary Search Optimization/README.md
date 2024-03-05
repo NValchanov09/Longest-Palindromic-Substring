@@ -14,11 +14,11 @@ The check function could return an index to the start of the substring or -1 if 
 **Time complexity:**
 O(logN) possible lengths and O(N^2) check if a palindrome with this length exists.
 
-**Total Time complexity**
+**Total Time complexity:**
 O(N^2*logN) 
 
-**Space complexity**
+**Space complexity:**
 This solution could be implemented without using auxiliary space.
 
-**Total Space complexity**
+**Total Space complexity:**
 O(1)
