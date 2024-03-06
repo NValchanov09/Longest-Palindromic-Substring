@@ -2,7 +2,7 @@
 
 ## 1. Idea
 
-The idea is a simple bruteforce aproach. We try all possible substrings and check each of them if it is a palindrome.
+The idea is a simple bruteforce approach. We try all possible substrings and check each of them if it is a palindrome.
 
 ## 2. Implementation
 
@@ -15,8 +15,8 @@ O(N^2) possible substrings for each of them we check if it is a palindrome in O(
 **Total Time complexity:**
 O(N^3)
 
-**Space complexity**
+**Space complexity:**
 If we check only using the left and right boundaries we could implement this solution without auxiliary space.
 
-**Total Space complexity**
+**Total Space complexity:**
 O(1)
