@@ -1,7 +1,11 @@
 # O(N^2*logN) - Binary Search Optimization
 
 ## 1. Idea
-This is idea isn't very simple and most of the people get to the O(N^2) solutions first. 
+>[!NOTE]
+>This idea isn't very simple and most of the people get to the O(N^2) solution first.
+
+
+
 We binary search the length of the LPS. The tricky part in this solution is that we can't check for each length because palindromes with different parity of their sizes have different transitions.
 For example if the S = "abracadabra", a palindrome with length 3 exists ("aca"), but a palindrome with length 2 doesn't exist.
 To solve this issue we will use 2 binary searches - one for each parity of the length.
